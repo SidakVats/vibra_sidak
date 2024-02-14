@@ -1,0 +1,391 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.font{
+  font-family: 'Montez', cursive;
+}
+
+.font2{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* ============================ Navbar & Swiper  ===================================== */
+
+.bg-light {
+	background-color: transparent !important;
+}
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: WHITE;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #6712eb;
+	margin-top: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption a:hover{
+    background: linear-gradient(to right, #781d91, #551370, #540088, #6201b7, #6712eb);
+    color: white;
+}
+
+.navbar-nav a {
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		bottom: 165px;
+	}
+	.carousel-caption h5 {
+		font-size: 17px;
+	}
+	.carousel-caption a {
+		padding: 10px 15px;
+		font-size: 15px;
+	}
+}
+.new-ed:hover{
+    color: #6712eb;
+
+}
+
+
+/* ========================= Portfolio Section ============================================ */
+
+.container1 {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container1:hover .image {
+    opacity: 0.8;
+  }
+  
+  .container1:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    /* background-color: #04AA6D; */
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;}
+
+    .card2{
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+        transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+        padding: 14px 80px 18px 36px;
+        cursor: pointer;
+    }
+    
+    .card2:hover{
+      transform: scale(1.05);
+      -webkit-box-shadow:0px 0px 18px 0px #303bcf ;
+      -moz-box-shadow:0px 0px 18px 0px #c38bbd ;
+      box-shadow:0px 0px 18px 0px #d954cb ;
+    }
+    
+    .card2 h3{
+      font-weight: 600;
+    }
+    
+    .card2 img{
+      position: absolute;
+      top: 20px;
+      right: 15px;
+      max-height: 120px;
+    }
+    @media(max-width: 990px){
+      .card2{
+        margin: 20px;
+      }
+    } 
+
+
+/* ========================= Newsletter & Blog Section ============================================ */
+
+  .card3{
+      border-radius: 4px;
+      background: #fff;
+      box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+      padding: 14px 30px 18px 26px;
+      cursor: pointer;
+  }
+  
+  .card3:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow:0px 0px 18px 0px #b5b6cc ;
+    -moz-box-shadow:0px 0px 18px 0px #c38bbd ;
+    box-shadow:0px 0px 18px 0px #c088ba ;
+  }
+
+
+/* ========================= Zoom & Zoom2 ============================================ */
+
+  .zoom {
+    transition: transform .2s;
+  }
+  .zoom:hover {
+    transform: scale(1.05); 
+  }
+
+
+
+  .zoom2 {
+    transition: transform .2s;
+  }
+  .zoom2:hover {
+    transform: scale(1.5); 
+  }
+
+  
+/* ========================= Check It Out Section ============================================ */
+
+.card4{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    /* padding: 14px 80px 18px 36px; */
+    cursor: pointer;
+}
+
+.card4:hover{
+  transform: scale(1.02);
+  -webkit-box-shadow:0px 0px 18px 0px #303bcf ;
+  -moz-box-shadow:0px 0px 18px 0px #c38bbd ;
+  box-shadow:0px 0px 18px 0px #d954cb ;
+}
+
+
+
+/* ========================= Parallax Effect ============================================ */
+
+
+/* Typography */
+#parallax-world-of-ugg h1 {font-family:'Oswald', sans-serif; font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
+#parallax-world-of-ugg h2 {font-family:'Oswald', sans-serif; font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.9;}
+#parallax-world-of-ugg h3 {font-family:'Oswald', sans-serif; font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
+#parallax-world-of-ugg p {font-family:'Source Sans Pro', sans-serif; font-weight:400; font-size:14px; line-height:24px;}
+.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; font-family: 'Source Sans Pro', sans-serif;}
+
+/* Section - Block */
+#parallax-world-of-ugg .block {background: white; padding: 60px; width:820px; margin:0 auto; text-align:justify;}
+#parallax-world-of-ugg .block-gray {background: #f2f2f2;padding: 60px;}
+#parallax-world-of-ugg .section-overlay-mask {position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: black; opacity: 0.70;}
+
+/* Section - Parallax */
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; background-image: url(https://vibra.qodeinteractive.com/wp-content/uploads/2019/02/h1-parallax-1.jpg); background-attachment: fixed; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: top center;}
+
+
+/* Media Queries */
+@media screen and (max-width: 959px) and (min-width: 768px) {
+  #parallax-world-of-ugg .block {padding: 40px; width:620px;}
+}
+@media screen and (max-width: 767px) {
+  #parallax-world-of-ugg .block {padding: 30px; width:420px;}
+  #parallax-world-of-ugg h2 {font-size:30px;}
+  #parallax-world-of-ugg .block {padding: 30px;}
+  #parallax-world-of-ugg .parallax-one, #parallax-world-of-ugg .parallax-two, #parallax-world-of-ugg .parallax-three {padding-top:100px; padding-bottom:100px;}
+}
+@media screen and (max-width: 479px) {
+  #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+=============================== View_Product Page ===========================
+============================================================================= */
+
+.nav-a:hover{
+  color: #6712eb;
+}
+
+
+.card5{
+  border-radius: 4px;
+  background: #fff;
+  -webkit-box-shadow:0px 0px 18px 0px #303bcf ;
+  -moz-box-shadow:0px 0px 18px 0px #c38bbd ;
+  box-shadow:0px 0px 10px 0px #d954cb ;
+  
+  /* padding: 14px 80px 18px 36px; */
+  cursor: pointer;
+}
+
+.card6{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.216), 0 0 6px rgba(0, 0, 0, 0.341);
+  
+  cursor: pointer;
+}
+
+.card6:hover{
+  transform: scale(1.01);
+  -webkit-box-shadow:0px 0px 12px 0px #303bcf ;
+  -moz-box-shadow:0px 0px 12px 0px #c38bbd ;
+   box-shadow:0px 0px 5px 0px #d954cb ;
+}
+
+
+/* Tabs*/
+section {
+  padding: 60px 0;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  background-color: transparent;
+  
+  border-bottom: 3px solid !important;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#tabs .nav-tabs .nav-link {
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+  color: #6712eb;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+=============================== all_Products Page ===========================
+============================================================================= */
+
+input[type="range"] {
+  /* removing default appearance */
+  -webkit-appearance: none;
+  appearance: none;
+  /* creating a custom design */
+  width: 80%;
+  cursor: pointer;
+  outline: none;
+  background-color: #6712eb;
+  height: 5px;
+}
+
+.hello{
+  color: black;
+}
+
+.hello:hover{
+  color: #6712eb;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+=============================== blog Page ===================================
+============================================================================= */
+
+.zoom3 {
+  transition: transform .2s;
+}
+.zoom3:hover {
+  transform: scale(1.03); 
+}
+
+
+
+  
